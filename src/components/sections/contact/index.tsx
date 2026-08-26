@@ -17,10 +17,10 @@ export default function ContactSection() {
                 <a href={LINKS.instagramSolo} target="_blank" className="hover:outline-4 outline-brand hover:-outline-offset-4 transition-all duration-300" >
                     <div className="w-full relative">
                         <Image
-                            src="/picsLive/ig.jpg"
+                            src="/picsLive/ig Medium.png"
                             alt="musician"
                             fill
-                            className="object-cover object-center -z-10"
+                            className="object-cover object-[center_32%] -z-10"
                             priority
                         />
 
@@ -42,7 +42,7 @@ export default function ContactSection() {
                             src="/picsLive/tao.jpeg"
                             alt="Musical Duo"
                             fill
-                            className="object-cover object-top-left -z-10"
+                            className="object-cover object-[center_10%] -z-10"
                             priority
                         />
 
