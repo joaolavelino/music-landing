@@ -56,4 +56,22 @@ export const gigSchedule: Gig[] = [
             detail: 'Água Verde',
         },
     },
+    {
+        date: new Date('2026-09-10T20:00:00'),
+        venue: 'Jindagee Concept Bar',
+        format: 'solo',
+        region: {
+            city: 'Curitiba',
+            detail: 'Água Verde',
+        },
+    },
+    {
+        date: new Date('2026-09-24T20:00:00'),
+        venue: 'Jindagee Concept Bar',
+        format: 'solo',
+        region: {
+            city: 'Curitiba',
+            detail: 'Água Verde',
+        },
+    },
 ]
