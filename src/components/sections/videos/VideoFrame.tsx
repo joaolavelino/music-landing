@@ -13,5 +13,5 @@ export const VideoFrame = ({ link }: VideoFrameProps) => {
         </blockquote>
     `
 
-    return <div dangerouslySetInnerHTML={{ __html: embedHtml }} className="h-[529px] overflow-hidden drop-shadow-[0px_4px_0px_var(--color-brand-shadow)]" />
+    return <div dangerouslySetInnerHTML={{ __html: embedHtml }} className="h-[529px] md:h-[490px] lg:h-[600px] overflow-hidden drop-shadow-[0px_4px_0px_var(--color-brand-shadow)]" />
 }

@@ -53,8 +53,8 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       lang="pt-BR"
       className={`${holtwoodOneSC.variable} ${bebasNeue.variable} ${antonSC.variable} ${geistSans.variable} ${geistMono.variable} h-screen antialiased bg-bg`}
     >
-      <body className="min-h-screen bg-bg flex justify-center">
-        <div className="w-full max-w-[390px] min-h-screen bg-bg flex flex-col">
+      <body className="min-h-screen w-screen bg-bg flex justify-cente p-0 m-0">
+        <div className="w-full max-w-[425px] md:max-w-[1200px] mx-auto min-h-screen bg-bg flex flex-col">
           {children}
         </div>
       </body>
