@@ -6,8 +6,6 @@ import Image from 'next/image';
 
 export function GigSchedule() {
 
-    const thisMonth = new Date().getMonth();
-    const nextMonth = new Date().getMonth() + 1;
     const gigs = gigSchedule.filter(el => el.date > new Date());
     const sortedGigs = gigs.sort((a, b) => a.date.getTime() - b.date.getTime()).slice(0, 8);
 
