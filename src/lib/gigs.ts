@@ -1,7 +1,8 @@
 import { Gig } from "@/types/dataTypes";
 
-
 export const gigSchedule: Gig[] = [
+
+    // AGOSTO 2026
     {
         date: new Date('2026-08-28T20:00:00'),
         venue: 'Maverick Pub',
@@ -20,6 +21,8 @@ export const gigSchedule: Gig[] = [
             detail: 'Umbará',
         },
     },
+
+    // SETEMBRO 2026
     {
         date: new Date('2026-09-05T20:00:00'),
         venue: 'Giggs Bar',
@@ -27,6 +30,33 @@ export const gigSchedule: Gig[] = [
         region: {
             city: 'Curitiba',
             detail: 'Centro Cívico',
+        },
+    },
+    {
+        date: new Date('2026-09-10T20:00:00'),
+        venue: 'Jindagee Concept Bar',
+        format: 'solo',
+        region: {
+            city: 'Curitiba',
+            detail: 'Água Verde',
+        },
+    },
+    {
+        date: new Date('2026-09-11T20:00:00'),
+        venue: 'Maverick Pub',
+        format: 'solo',
+        region: {
+            city: 'Curitiba',
+            detail: 'Portão',
+        },
+    },
+    {
+        date: new Date('2026-09-12T16:00:00'),
+        venue: 'Vox Road Pub',
+        format: 'theAlleyOops',
+        region: {
+            city: 'Curitiba',
+            detail: 'Umbará',
         },
     },
     {
@@ -48,24 +78,6 @@ export const gigSchedule: Gig[] = [
         },
     },
     {
-        date: new Date('2026-09-25T20:00:00'),
-        venue: 'Ukra Bar',
-        format: 'solo',
-        region: {
-            city: 'Curitiba',
-            detail: 'Água Verde',
-        },
-    },
-    {
-        date: new Date('2026-09-10T20:00:00'),
-        venue: 'Jindagee Concept Bar',
-        format: 'solo',
-        region: {
-            city: 'Curitiba',
-            detail: 'Água Verde',
-        },
-    },
-    {
         date: new Date('2026-09-24T20:00:00'),
         venue: 'Jindagee Concept Bar',
         format: 'solo',
@@ -74,4 +86,13 @@ export const gigSchedule: Gig[] = [
             detail: 'Água Verde',
         },
     },
-]
+    {
+        date: new Date('2026-09-25T20:00:00'),
+        venue: 'Ukra Bar',
+        format: 'solo',
+        region: {
+            city: 'Curitiba',
+            detail: 'Água Verde',
+        },
+    },
+];
