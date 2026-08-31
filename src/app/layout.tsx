@@ -39,8 +39,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/picsLive/og.png",
-        width: 63,
-        height: 63,
+        width: 587,
+        height: 887,
         alt: "João Avelino — Música ao Vivo",
       },
     ],
