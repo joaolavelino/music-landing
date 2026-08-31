@@ -31,7 +31,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "João Avelino - Músico",
+  title: "João Avelino - Música ao Vivo",
   description: "Música ao vivo para bares, restaurantes e eventos",
   openGraph: {
     title: "João Avelino — Música ao Vivo",

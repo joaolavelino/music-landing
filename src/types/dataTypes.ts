@@ -8,6 +8,12 @@ export type Gig = {
     }
 }
 
+export type MusicEvent = {
+    name: string
+    description: string
+    image: string
+}
+
 export const FORMATS = {
     solo: 'Solo',
     theAlleyOops: 'The Alley-Oops',
