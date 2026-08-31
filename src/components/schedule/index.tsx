@@ -9,7 +9,7 @@ export function GigSchedule() {
     const thisMonth = new Date().getMonth();
     const nextMonth = new Date().getMonth() + 1;
     const gigs = gigSchedule.filter((gig) => gig.date.getMonth() === thisMonth || gig.date.getMonth() === nextMonth);
-    const sortedGigs = gigs.sort((a, b) => a.date.getTime() - b.date.getTime()).slice(0, 7);
+    const sortedGigs = gigs.sort((a, b) => a.date.getTime() - b.date.getTime()).slice(0, 8);
 
 
 
