@@ -42,6 +42,15 @@ export const gigSchedule: Gig[] = [
         },
     },
     {
+        date: new Date('2026-09-06T13:30:00'),
+        venue: 'Souq',
+        format: 'solo',
+        region: {
+            city: 'Curitiba',
+            detail: 'Vila Izabel',
+        },
+    },
+    {
         date: new Date('2026-09-10T20:00:00'),
         venue: 'Jindagee Concept Bar',
         format: 'solo',
