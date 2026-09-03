@@ -24,6 +24,15 @@ export const gigSchedule: Gig[] = [
 
     // SETEMBRO 2026
     {
+        date: new Date('2026-09-04T20:00:00'),
+        venue: 'Maverick Pub',
+        format: 'solo',
+        region: {
+            city: 'Curitiba',
+            detail: 'Portão',
+        },
+    },
+    {
         date: new Date('2026-09-05T20:00:00'),
         venue: 'Giggs Bar',
         format: 'theAlleyOops',
@@ -44,7 +53,7 @@ export const gigSchedule: Gig[] = [
     {
         date: new Date('2026-09-11T20:00:00'),
         venue: 'Maverick Pub',
-        format: 'solo',
+        format: 'theAlleyOops',
         region: {
             city: 'Curitiba',
             detail: 'Portão',
