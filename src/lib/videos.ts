@@ -6,7 +6,7 @@ export type VideoLink = {
 export const VIDEOSURL: VideoLink[] = [
     {
         title: 'John The Revelator',
-        url: "https://www.instagram.com/reel/Dc6Do1UyjD/?utm_source=ig_embed&amp;utm_campaign=loading"
+        url: "https://www.instagram.com/reel/Dc6Do1UyjD-/?utm_source=ig_embed&amp;utm_campaign=loading"
     },
     {
         title: 'Ain\'t No Sunshine',
