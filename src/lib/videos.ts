@@ -5,6 +5,14 @@ export type VideoLink = {
 
 export const VIDEOSURL: VideoLink[] = [
     {
+        title: 'John The Revelator',
+        url: "https://www.instagram.com/reel/Dc6Do1UyjD/?utm_source=ig_embed&amp;utm_campaign=loading"
+    },
+    {
+        title: 'Ain\'t No Sunshine',
+        url: "https://www.instagram.com/reel/DdW5R47Sk32/?utm_source=ig_embed&amp;utm_campaign=loading"
+    },
+    {
         title: 'Somewhere Over the Rainbow',
         url: "https://www.instagram.com/reel/Db6c5gghiCM/?utm_source=ig_embed&amp;utm_campaign=loading"
     },
@@ -21,3 +29,5 @@ export const VIDEOSURL: VideoLink[] = [
         url: "https://www.instagram.com/reel/Daql7IGBuGl/?utm_source=ig_embed&amp;utm_campaign=loading"
     },
 ] as const
+
+

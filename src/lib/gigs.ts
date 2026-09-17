@@ -113,4 +113,52 @@ export const gigSchedule: Gig[] = [
             detail: 'Água Verde',
         },
     },
+
+    //Outubro 2026
+    {
+        date: new Date('2026-10-02T20:00:00'),
+        venue: 'Maverick Pub',
+        format: 'solo',
+        region: {
+            city: 'Curitiba',
+            detail: 'Portão',
+        },
+    },
+    {
+        date: new Date('2026-10-07T19:00:00'),
+        venue: 'Nacional Bar e Mar',
+        format: 'solo',
+        region: {
+            city: 'Curitiba',
+            detail: 'Batel',
+        },
+    },
+    {
+        date: new Date('2026-10-16T20:00:00'),
+        venue: 'Maverick Pub',
+        format: 'solo',
+        region: {
+            city: 'Curitiba',
+            detail: 'Portão',
+        },
+    },
+    {
+        date: new Date('2026-10-23T19:00:00'),
+        venue: 'Uva e Alma',
+        format: 'solo',
+        region: {
+            city: 'Curitiba',
+            detail: 'Centro',
+        },
+    },
+    {
+        date: new Date('2026-10-30T20:00:00'),
+        venue: 'Maverick Pub',
+        format: 'solo',
+        region: {
+            city: 'Curitiba',
+            detail: 'Portão',
+        },
+    },
+
 ];
