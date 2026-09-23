@@ -116,6 +116,15 @@ export const gigSchedule: Gig[] = [
 
     //Outubro 2026
     {
+        date: new Date('2026-10-01T19:00:00'),
+        venue: 'Bier Kraft',
+        format: 'solo',
+        region: {
+            city: 'Curitiba',
+            detail: 'Agua Verde',
+        },
+    },
+    {
         date: new Date('2026-10-02T20:00:00'),
         venue: 'Maverick Pub',
         format: 'solo',
@@ -134,6 +143,33 @@ export const gigSchedule: Gig[] = [
         },
     },
     {
+        date: new Date('2026-10-08T20:00:00'),
+        venue: 'Jindagee Concept Bar',
+        format: 'solo',
+        region: {
+            city: 'Curitiba',
+            detail: 'Água Verde',
+        },
+    },
+    {
+        date: new Date('2026-10-14T19:00:00'),
+        venue: 'Nacional Bar e Mar',
+        format: 'solo',
+        region: {
+            city: 'Curitiba',
+            detail: 'Batel',
+        },
+    },
+    {
+        date: new Date('2026-10-15T19:00:00'),
+        venue: 'Nacional Bar e Mar',
+        format: 'theAlleyOops',
+        region: {
+            city: 'Curitiba',
+            detail: 'Batel',
+        },
+    },
+    {
         date: new Date('2026-10-16T20:00:00'),
         venue: 'Maverick Pub',
         format: 'solo',
@@ -143,12 +179,50 @@ export const gigSchedule: Gig[] = [
         },
     },
     {
+        date: new Date('2026-10-17T20:00:00'),
+        venue: 'Vox Road Pub',
+        format: 'solo',
+        region: {
+            city: 'Curitiba',
+            detail: 'Umbará',
+        },
+    },
+
+    {
+        date: new Date('2026-10-21T19:00:00'),
+        venue: 'Nacional Bar e Mar',
+        format: 'solo',
+        region: {
+            city: 'Curitiba',
+            detail: 'Batel',
+        },
+    },
+    {
         date: new Date('2026-10-23T19:00:00'),
         venue: 'Uva e Alma',
         format: 'solo',
         region: {
             city: 'Curitiba',
             detail: 'Centro',
+        },
+    },
+    {
+        date: new Date('2026-10-24T20:00:00'),
+        venue: 'Jindagee Concept Bar',
+        format: 'theAlleyOops',
+        region: {
+            city: 'Curitiba',
+            detail: 'Água Verde',
+        },
+    },
+
+    {
+        date: new Date('2026-10-28T19:00:00'),
+        venue: 'Nacional Bar e Mar',
+        format: 'solo',
+        region: {
+            city: 'Curitiba',
+            detail: 'Batel',
         },
     },
     {
